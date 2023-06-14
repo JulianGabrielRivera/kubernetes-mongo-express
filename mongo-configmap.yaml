@@ -1,0 +1,8 @@
+# we use this so we can use a ref and multiple components cna use it
+apiVersion: v1
+# type
+kind: ConfigMap
+metadata:
+ name: mongodb-configmap
+data:
+ database_url: mongodb-service
